@@ -1,0 +1,65 @@
+{
+  "original": {
+    "production": {
+      "agent": "Production Rule Agent",
+      "n": 100,
+      "mean_reward": -7.0,
+      "std_reward": 0.0,
+      "mean_steps": 18.0,
+      "std_steps": 0.0,
+      "success_rate": 1.0,
+      "best_reward": -7,
+      "worst_reward": -7
+    },
+    "q_learning": {
+      "agent": "Q-Learning Agent",
+      "n": 100,
+      "mean_reward": -7.0,
+      "std_reward": 0.0,
+      "mean_steps": 18.0,
+      "std_steps": 0.0,
+      "success_rate": 1.0,
+      "best_reward": -7,
+      "worst_reward": -7
+    }
+  },
+  "modified": {
+    "production": {
+      "agent": "Production Rule Agent",
+      "n": 100,
+      "mean_reward": -200.0,
+      "std_reward": 0.0,
+      "mean_steps": 200.0,
+      "std_steps": 0.0,
+      "success_rate": 0.0,
+      "best_reward": -200,
+      "worst_reward": -200
+    },
+    "q_learning_stale": {
+      "agent": "Q-Learning Agent",
+      "n": 100,
+      "mean_reward": -1955.0,
+      "std_reward": 0.0,
+      "mean_steps": 200.0,
+      "std_steps": 0.0,
+      "success_rate": 0.0,
+      "best_reward": -1955,
+      "worst_reward": -1955
+    },
+    "q_learning_retrained": {
+      "agent": "Q-Learning Agent",
+      "n": 100,
+      "mean_reward": -7.0,
+      "std_reward": 0.0,
+      "mean_steps": 18.0,
+      "std_steps": 0.0,
+      "success_rate": 1.0,
+      "best_reward": -7,
+      "worst_reward": -7
+    }
+  },
+  "adaptation_delta": {
+    "production": -1.0,
+    "q_learning": 0.0
+  }
+}

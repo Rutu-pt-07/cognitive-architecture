@@ -1,0 +1,30 @@
+{
+  "phase": "modified",
+  "production": {
+    "agent_name": "Production Rule",
+    "num_episodes": 100,
+    "mean_reward": 3.0,
+    "std_reward": 0.0,
+    "mean_steps": 8.0,
+    "std_steps": 0.0,
+    "success_rate": 1.0
+  },
+  "q_learning_before_retrain": {
+    "agent_name": "Q-Learning (stale)",
+    "num_episodes": 100,
+    "mean_reward": -982.0,
+    "std_reward": 0.0,
+    "mean_steps": 100.0,
+    "std_steps": 0.0,
+    "success_rate": 0.0
+  },
+  "q_learning_after_retrain": {
+    "agent_name": "Q-Learning (retrained)",
+    "num_episodes": 100,
+    "mean_reward": 3.0,
+    "std_reward": 0.0,
+    "mean_steps": 8.0,
+    "std_steps": 0.0,
+    "success_rate": 1.0
+  }
+}
