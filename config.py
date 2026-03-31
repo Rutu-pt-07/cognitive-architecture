@@ -49,6 +49,6 @@ RETRAIN_EPISODES = 500  # Episodes for retraining after env change
 import os
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-RESULTS_DIR = os.path.join(PROJECT_ROOT, "results")
+RESULTS_DIR = os.path.join(PROJECT_ROOT, "experiment_v1", "results")
 PLOTS_DIR = os.path.join(RESULTS_DIR, "plots")
 LOGS_DIR = os.path.join(RESULTS_DIR, "logs")

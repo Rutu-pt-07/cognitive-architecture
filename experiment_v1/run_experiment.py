@@ -16,13 +16,14 @@ import sys
 import os
 import numpy as np
 
+sys.path.insert(0, os.path.dirname(__file__))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 import config
 
 from environment.grid_world import GridWorld
 from agents.production_agent import ProductionAgent
 from agents.q_learning_agent import QLearningAgent
-from experiments.evaluation import evaluate_agent, print_metrics, compare_agents
+from evaluation import evaluate_agent, print_metrics, compare_agents
 from utils.visualization import plot_grid, plot_grid_comparison, plot_q_values
 from utils.plotting import (
     plot_learning_curve, plot_steps_curve,
